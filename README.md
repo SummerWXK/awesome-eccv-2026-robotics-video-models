@@ -14,11 +14,6 @@
 
 This repository curates model-centric papers from the [official ECCV 2026 accepted-paper list](https://eccv.ecva.net/Conferences/2026/AcceptedPapers), with a focus on robotics, world models, world-action models, vision-language-action models, and generative video models.
 
-### 🔥 Featured Group: MVIG / Cewu Lu
-
-* [⭐] **LaMP**, "Learning Vision-Language-Action Policies with 3D Scene Flow as Latent Motion Prior". [![arXiv](https://img.shields.io/badge/arXiv-2603.25399-b31b1b.svg)](https://arxiv.org/abs/2603.25399) [![Project](https://img.shields.io/badge/Project-Page-2ea44f.svg)](https://summerwxk.github.io/lamp-project-page/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/SummerWXK/LaMP) [![Group](https://img.shields.io/badge/Group-MVIG--SJTU-0B7285.svg)](https://www.mvig.org/) <br> Xinkai Wang et al. · **Cewu Lu**, **Lixin Yang** · ECCV 2026 Poster S6 · #3
-* [⭐] **ChronoFlow-Policy**, "Unifying Past-Future Interaction Flow in Visuomotor Policy Learning". [![arXiv](https://img.shields.io/badge/arXiv-2606.31493-b31b1b.svg)](https://arxiv.org/abs/2606.31493) [![Project](https://img.shields.io/badge/Project-Page-2ea44f.svg)](https://the-kamisato-sii.github.io/ChronoFlow-Policy-project-page/) [![Code](https://img.shields.io/badge/Code-GitHub-green.svg)](https://github.com/The-kamisato-Sii/ChronoFlow-Policy) [![Group](https://img.shields.io/badge/Group-MVIG--SJTU-0B7285.svg)](https://www.mvig.org/) <br> Bokai Lin et al. · **Cewu Lu**, **Lixin Yang** · ECCV 2026 Poster S6 · #284
-
 ### 🌟 Key Features
 
 * **Structured taxonomy:** four focused tracks covering world-action models, world models, VLA models, and video generation/simulation.
