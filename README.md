@@ -9,6 +9,7 @@ A curated, model-centric reading list drawn from the [official ECCV 2026 accepte
 
 ## Contents
 
+- [Selected Highlights: Notable Groups and Authors](#selected-highlights-notable-groups-and-authors)
 - [World-Action Models (2)](#world-action-models)
 - [World Models (54)](#world-models)
 - [Vision-Language-Action Models (43)](#vision-language-action-models)
@@ -20,6 +21,26 @@ A curated, model-centric reading list drawn from the [official ECCV 2026 accepte
 
 - 📄 Direct arXiv record found by normalized exact-title matching.
 - 🔎 No exact arXiv record was found on 2026-08-19; the link opens an exact-title search so it can resolve after a later release.
+- ⭐ Editorial highlight based on verified paper affiliations or established authors; not a ranking.
+
+## Selected Highlights: Notable Groups and Authors
+
+These are non-exhaustive editorial picks, not a ranking. The institutions and authors below were verified against the corresponding arXiv paper pages.
+
+| Area | Paper | Verified institutions and notable authors |
+| --- | --- | --- |
+| World Models | [A Physics-Grounded Benchmark for Multi-Agent Dynamics in World Models](https://arxiv.org/abs/2606.28757) | **NVIDIA**, **Stanford**, **UT Austin**, Texas A&M, Yale, and others · **Marco Pavone**, **Zhangyang Wang**, **Boris Ivanovic**, **Zhiwen Fan** |
+| World Models | [Counterfactual World Models via Digital Twin-conditioned Video Diffusion](https://arxiv.org/abs/2511.17481) | **Johns Hopkins University** · **Mathias Unberath** |
+| World Models | [Deform360](https://arxiv.org/abs/2607.05390) | **Brown**, **Columbia**, **MIT** · **Srinath Sridhar**, **George Konidaris**, **Yunzhu Li** |
+| World Models | [World Models for Learning Dexterous Hand-Object Interactions from Human Videos](https://arxiv.org/abs/2512.13644) | **FAIR at Meta**, **New York University** · **Yann LeCun** |
+| World Models | [WorldAgents](https://arxiv.org/abs/2603.19708) | **Technical University of Munich** · **Angela Dai**, **Matthias Nießner** |
+| VLA | [LIBERO-Safety](https://arxiv.org/abs/2606.23686) | **AIR, Tsinghua University**, **BAAI**, Beihang, SJTU, and Eastern Institute of Technology · **Ya-Qin Zhang**, **Hao Zhao** |
+| VLA | [Mechanistic Finetuning of Vision-Language-Action Models](https://arxiv.org/abs/2511.22697) | **CMU**, **USC**, **UC Berkeley**, **MIT-IBM Watson AI Lab** · **Trevor Darrell**, **Deva Ramanan**, **Jesse Thomason** |
+| VLA | [Scaling Verification Can Be More Effective than Scaling Policy Learning](https://arxiv.org/abs/2602.12281) | **NVIDIA Research**, **Stanford** · **Chelsea Finn**, **Marco Pavone**, **Azalia Mirhoseini** |
+| Video Generation | [OmniHuman](https://arxiv.org/abs/2604.18326) | **WeChat Lab, Tencent**, **Peking University**, **Chinese Academy of Sciences** |
+| Video Generation | [Pretrained Video Models as Differentiable Physics Simulators](https://arxiv.org/abs/2603.21210) | **ETH Zurich**, **Tel Aviv University**, **TU Darmstadt** · **Siddhartha Mishra**, **Bernd Bickel** |
+| Video Generation | [Rotate Your Character](https://arxiv.org/abs/2601.05722) | **Tencent Hunyuan**, **University of Hong Kong** · **Ping Luo** |
+| Video Generation | [Video Generation Models are General-Purpose Vision Learners](https://arxiv.org/abs/2607.09024) | **Google DeepMind**, **Oxford**, **MIT**, **University of Toronto**, **UCL** · **Kaiming He**, **Andrew Zisserman**, **Joao Carreira**, **Cristian Sminchisescu** |
 
 ## World-Action Models
 
@@ -32,13 +53,13 @@ Models that jointly generate or reason about future observations and executable 
 
 Predictive, generative, geometric, and latent dynamics models for embodied agents, navigation, manipulation, and driving.
 
-- 📄 [A Physics-Grounded Benchmark for Multi-Agent Dynamics in World Models](https://arxiv.org/abs/2606.28757) — Nuo Chen et al. · Poster S3 · #456
+- ⭐ 📄 [A Physics-Grounded Benchmark for Multi-Agent Dynamics in World Models](https://arxiv.org/abs/2606.28757) — Nuo Chen et al. · Poster S3 · #456
 - 📄 [Beyond Dense Futures: World Models as Structured Planners for Robotic Manipulation](https://arxiv.org/abs/2603.12553) — Minghao Jin et al. · Poster S6 · #282
 - 📄 [CausalDrive: Real-time Causal World Models for Autonomous Driving](https://arxiv.org/abs/2606.15341) — Tianyi Yan et al. · Poster S6 · #322
 - 📄 [CausalVAE as a Plug-in for World Models: Towards Reliable Counterfactual Dynamics](https://arxiv.org/abs/2604.07712) — Ziyi Ding et al. · Poster S6 · #452
-- 📄 [Counterfactual World Models via Digital Twin-conditioned Video Diffusion](https://arxiv.org/abs/2511.17481) — Yiqing Shen et al. · Poster S2 · #130
+- ⭐ 📄 [Counterfactual World Models via Digital Twin-conditioned Video Diffusion](https://arxiv.org/abs/2511.17481) — Yiqing Shen et al. · Poster S2 · #130
 - 📄 [Cycle-World: Mitigating Error Accumulation in Long-term Video World Models via Reverse-Prediction Cycle Consistency](https://arxiv.org/abs/2607.11836) — Zihan Su et al. · Poster S3 · #446
-- 📄 [Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models](https://arxiv.org/abs/2607.05390) — Hongyu Li et al. · Poster S6 · #403
+- ⭐ 📄 [Deform360: A Massive Multi-view Visuotactile Dataset for Deformable World Models](https://arxiv.org/abs/2607.05390) — Hongyu Li et al. · Poster S6 · #403
 - 🔎 [DepWorldSG: Depth-Aware 3D Semantic Scene Graph Generation via World-Model Priors](https://arxiv.org/search/?query=DepWorldSG%3A+Depth-Aware+3D+Semantic+Scene+Graph+Generation+via+World-Model+Priors&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Seok-Young Kim et al. · Poster S6 · #25
 - 📄 [Describe-Then-Act: Proactive Agent Steering via Distilled Language-Action World Models](https://arxiv.org/abs/2603.23149) — Massimiliano Pappa et al. · Poster S6 · #367
 - 🔎 [Divide and Conquer: Decoupled Representation Alignment for Multimodal World Models](https://arxiv.org/search/?query=Divide+and+Conquer%3A+Decoupled+Representation+Alignment+for+Multimodal+World+Models&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Junyuan Xiao et al. · Poster S2 · #173
@@ -83,8 +104,8 @@ Predictive, generative, geometric, and latent dynamics models for embodied agent
 - 🔎 [Walk through Paintings : Ego-centric World models from Internet Priors](https://arxiv.org/search/?query=Walk+through+Paintings+%3A+Ego-centric+World+models+from+Internet+Priors&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Anurag Bagchi et al. · Poster S6 · #320
 - 🔎 [What if? Emulative Simulation with World Models for Situated Reasoning](https://arxiv.org/search/?query=What+if%3F+Emulative+Simulation+with+World+Models+for+Situated+Reasoning&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Ruiping Liu et al. · Poster S6 · #387
 - 🔎 [WildWorld: A Large-Scale Dataset for Action-Conditioned World Modeling with Explicit State Annotations](https://arxiv.org/search/?query=WildWorld%3A+A+Large-Scale+Dataset+for+Action-Conditioned+World+Modeling+with+Explicit+State+Annotations&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Zhen Li et al. · Poster S6 · #434
-- 📄 [World Models for Learning Dexterous Hand-Object Interactions from Human Videos](https://arxiv.org/abs/2512.13644) — Raktim Goswami et al. · Poster S6 · #446
-- 📄 [WorldAgents: Can Foundation Image Models be Agents for 3D World Models?](https://arxiv.org/abs/2603.19708) — Ziya Erkoç et al. · Poster S4 · #107
+- ⭐ 📄 [World Models for Learning Dexterous Hand-Object Interactions from Human Videos](https://arxiv.org/abs/2512.13644) — Raktim Goswami et al. · Poster S6 · #446
+- ⭐ 📄 [WorldAgents: Can Foundation Image Models be Agents for 3D World Models?](https://arxiv.org/abs/2603.19708) — Ziya Erkoç et al. · Poster S4 · #107
 - 📄 [WorldCache: Content-Aware Caching for Accelerated Video World Models](https://arxiv.org/abs/2603.22286) — Umair Nawaz et al. · Poster S3 · #475
 
 ## Vision-Language-Action Models
@@ -107,10 +128,10 @@ VLA architectures, training, reasoning, efficiency, safety, evaluation, and embo
 - 🔎 [LaMP: Learning Vision-Language-Action Policies with 3D Scene Flow as Latent Motion Prior](https://arxiv.org/search/?query=LaMP%3A+Learning+Vision-Language-Action+Policies+with+3D+Scene+Flow+as+Latent+Motion+Prior&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Xinkai Wang et al. · Poster S6 · #3
 - 🔎 [LEAP-VLA: Latent-Enhanced Action Prototyping via Continuous Residual Latent Spaces for Vision-Language-Action Models](https://arxiv.org/search/?query=LEAP-VLA%3A+Latent-Enhanced+Action+Prototyping+via+Continuous+Residual+Latent+Spaces+for+Vision-Language-Action+Models&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Bo-Yun Yu et al. · Poster S1 · #317
 - 🔎 [Less is More: Reducing Complexity in Vision-Language-Action Systems](https://arxiv.org/search/?query=Less+is+More%3A+Reducing+Complexity+in+Vision-Language-Action+Systems&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Jinhui Ye et al. · Poster S1 · #322
-- 📄 [LIBERO-Safety: A Comprehensive Benchmark for Physical and Semantic Safety in Vision-Language-Action Models](https://arxiv.org/abs/2606.23686) — Rongxu Cui et al. · Poster S1 · #406
+- ⭐ 📄 [LIBERO-Safety: A Comprehensive Benchmark for Physical and Semantic Safety in Vision-Language-Action Models](https://arxiv.org/abs/2606.23686) — Rongxu Cui et al. · Poster S1 · #406
 - 🔎 [M2Tok: Multi-head Multi-codebook Discrete Action Tokenization for Vision-Language-Action Models](https://arxiv.org/search/?query=M2Tok%3A+Multi-head+Multi-codebook+Discrete+Action+Tokenization+for+Vision-Language-Action+Models&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Chunpu Xu et al. · Poster S1 · #405
 - 🔎 [MA-VLA: Multi-Arm Vision-Language-Action Model for Collaboration and Compositional Generalization](https://arxiv.org/search/?query=MA-VLA%3A+Multi-Arm+Vision-Language-Action+Model+for+Collaboration+and+Compositional+Generalization&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Zaibin Zhang et al. · Poster S6 · #356
-- 📄 [Mechanistic Finetuning of Vision-Language-Action Models via Few-Shot Demonstrations](https://arxiv.org/abs/2511.22697) — Chancharik Mitra et al. · Poster S1 · #344
+- ⭐ 📄 [Mechanistic Finetuning of Vision-Language-Action Models via Few-Shot Demonstrations](https://arxiv.org/abs/2511.22697) — Chancharik Mitra et al. · Poster S1 · #344
 - 📄 [MindDrive: A Vision-Language-Action Model for Autonomous Driving via Online Reinforcement Learning](https://arxiv.org/abs/2512.13636) — haoyu fu et al. · Poster S6 · #395
 - 📄 [MM-Nav: Multi-View VLA Model for Robust Visual Navigation via Multi-Expert Learning](https://arxiv.org/abs/2510.03142) — Tianyu Xu et al. · Poster S6 · #385
 - 📄 [MobileVLA-R1: Reinforcing Vision-Language-Action for Mobile Robots](https://arxiv.org/abs/2511.17889) — Ting Huang et al. · Poster S1 · #355
@@ -121,7 +142,7 @@ VLA architectures, training, reasoning, efficiency, safety, evaluation, and embo
 - 📄 [Revisiting Parameter Redundancy in Vision-Language-Action Models: Insights from VLM-to-VLA Adaptation](https://arxiv.org/abs/2606.31382) — Fengnian Zhang et al. · Poster S5 · #424
 - 📄 [SAFE-Pruner: Semantic Attention–Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation](https://arxiv.org/abs/2605.29662) — Shilin Ma et al. · Poster S1 · #417
 - 🔎 [SafeSAE-VLA: Interpreting OpenVLA Progress Dynamics with Sparse Feature Analysis](https://arxiv.org/search/?query=SafeSAE-VLA%3A+Interpreting+OpenVLA+Progress+Dynamics+with+Sparse+Feature+Analysis&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Socrates Osorio et al. · Poster S3 · #75
-- 📄 [Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment](https://arxiv.org/abs/2602.12281) — Jacky Kwok et al. · Poster S1 · #464
+- ⭐ 📄 [Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment](https://arxiv.org/abs/2602.12281) — Jacky Kwok et al. · Poster S1 · #464
 - 📄 [Tactile Modality Fusion for Vision-Language-Action Models](https://arxiv.org/abs/2603.14604) — Charlotte Morissette et al. · Poster S6 · #472
 - 🔎 [TDSR-VLA: Transition-aware Denoising Sequence Representations for Vision-Language-Action](https://arxiv.org/search/?query=TDSR-VLA%3A+Transition-aware+Denoising+Sequence+Representations+for+Vision-Language-Action&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Dong-Woo Kim et al. · Poster S1 · #468
 - 📄 [Teaching Vision-Language-Action Models What to See and Where to Look](https://arxiv.org/abs/2607.01658) — Yuguang Yang et al. · Poster S1 · #469
@@ -216,7 +237,7 @@ Video diffusion, autoregressive generation, controllable synthesis, editing, tok
 - 📄 [OmniCamera: A Unified Framework for Multi-task Video Generation with Arbitrary Camera Control](https://arxiv.org/abs/2604.06010) — Yukun Wang et al. · Poster S3 · #407
 - 📄 [OmniDance: Multimodal Driven Dance Video Generation with Large-scale Internet Data](https://arxiv.org/abs/2606.30019) — Kaixing Yang et al. · Poster S3 · #309
 - 🔎 [OmniFace: Bridging the Image-to-Video Gap for High-Fidelity Face Swapping via Diffusion Transformer](https://arxiv.org/search/?query=OmniFace%3A+Bridging+the+Image-to-Video+Gap+for+High-Fidelity+Face+Swapping+via+Diffusion+Transformer&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Xu Guo et al. · Poster S3 · #288
-- 📄 [OmniHuman: A Large-scale Dataset and Benchmark for Human-Centric Video Generation](https://arxiv.org/abs/2604.18326) — Lei Zhu et al. · Poster S3 · #349
+- ⭐ 📄 [OmniHuman: A Large-scale Dataset and Benchmark for Human-Centric Video Generation](https://arxiv.org/abs/2604.18326) — Lei Zhu et al. · Poster S3 · #349
 - 📄 [OneVAE: Joint Discrete and Continuous Optimization Helps Discrete Video VAE Train Better](https://arxiv.org/abs/2508.09857) — Yupeng Zhou et al. · Poster S2 · #66
 - 🔎 [OpenVE-3M: A Large-Scale High-Quality Dataset for Instruction-Based Video Editing](https://arxiv.org/search/?query=OpenVE-3M%3A+A+Large-Scale+High-Quality+Dataset+for+Instruction-Based+Video+Editing&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Haoyang He et al. · Poster S4 · #123
 - 📄 [OSVE: One Step Video Editing with One Step Diffusion Models](https://arxiv.org/abs/2607.19895) — Habin Lim et al. · Poster S4 · #252
@@ -228,7 +249,7 @@ Video diffusion, autoregressive generation, controllable synthesis, editing, tok
 - 📄 [PhysRAG: Enhancing Physics-Awareness in Video Generation via Retrieval-Augmented Generation](https://arxiv.org/abs/2606.26916) — Kexu Cheng et al. · Poster S3 · #430
 - 📄 [PhysRVG: Physics-Aware Unified Reinforcement Learning for Video Generative Models](https://arxiv.org/abs/2601.11087) — Qiyuan Zhang et al. · Poster S3 · #283
 - 🔎 [Predictive Structure Improves Video Diffusion Dynamics](https://arxiv.org/search/?query=Predictive+Structure+Improves+Video+Diffusion+Dynamics&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Mi Luo et al. · Poster S3 · #258
-- 📄 [Pretrained Video Models as Differentiable Physics Simulators for Urban Wind Flows](https://arxiv.org/abs/2603.21210) — Janne Perini et al. · Poster S4 · #70
+- ⭐ 📄 [Pretrained Video Models as Differentiable Physics Simulators for Urban Wind Flows](https://arxiv.org/abs/2603.21210) — Janne Perini et al. · Poster S4 · #70
 - 📄 [QWERTY: Training-Free Motion Control via Query-Warped Video Diffusion Transformers](https://arxiv.org/abs/2607.01869) — Kyobin Choo et al. · Poster S5 · #50
 - 📄 [ReCamDriving: LiDAR-Free Camera-Controlled Video Synthesis for Novel Trajectories](https://arxiv.org/abs/2512.03621) — Yaokun li et al. · Poster S3 · #337
 - 📄 [RefAlign: Representation Alignment for Reference-to-Video Generation](https://arxiv.org/abs/2603.25743) — Lei Wang et al. · Poster S5 · #38
@@ -236,7 +257,7 @@ Video diffusion, autoregressive generation, controllable synthesis, editing, tok
 - 📄 [Reward Lightning: Fast Video Generation via Homologous Preference Distillation](https://arxiv.org/abs/2607.03960) — Jiaxiang Cheng et al. · Poster S4 · #200
 - 📄 [RhymeFlow: Training Free Acceleration for Video Generation with Asynchronous Denoising Flow Scheduling](https://arxiv.org/abs/2606.06309) — Chensheng Dai et al. · Poster S5 · #120
 - 🔎 [Ring Forcing: Towards Precise Long-Term Memory for Autoregressive Video Diffusion](https://arxiv.org/search/?query=Ring+Forcing%3A+Towards+Precise+Long-Term+Memory+for+Autoregressive+Video+Diffusion&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Bowen Xue et al. · Poster S2 · #2
-- 📄 [Rotate Your Character: Revisiting Video Diffusion Models for High-Quality 3D Character Generation](https://arxiv.org/abs/2601.05722) — Jin Wang et al. · Poster S1 · #177
+- ⭐ 📄 [Rotate Your Character: Revisiting Video Diffusion Models for High-Quality 3D Character Generation](https://arxiv.org/abs/2601.05722) — Jin Wang et al. · Poster S1 · #177
 - 📄 [RotateAttention : RoPE-Aware Rotation and Range Rectification for INT4 Quantized Attention in Video Generation](https://arxiv.org/abs/2607.02584) — Yaofu LIU et al. · Poster S2 · #227
 - 🔎 [SA-V2V: Training-Free Subject-Aware Video-to-Video Personalization](https://arxiv.org/search/?query=SA-V2V%3A+Training-Free+Subject-Aware+Video-to-Video+Personalization&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Soobin Park et al. · Poster S3 · #396
 - 🔎 [SALT: Self-Consistent Distribution Matching with Cache-Aware Training for Few-Step Video Generation](https://arxiv.org/search/?query=SALT%3A+Self-Consistent+Distribution+Matching+with+Cache-Aware+Training+for+Few-Step+Video+Generation&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Xingtong Ge et al. · Poster S2 · #30
@@ -262,7 +283,7 @@ Video diffusion, autoregressive generation, controllable synthesis, editing, tok
 - 🔎 [VGEdit: Unlocking Video Generation Priors for Reasoning-Informed Image Editing](https://arxiv.org/search/?query=VGEdit%3A+Unlocking+Video+Generation+Priors+for+Reasoning-Informed+Image+Editing&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Haiquan Lu et al. · Poster S4 · #125
 - 📄 [VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward](https://arxiv.org/abs/2603.26599) — Zhaochong An et al. · Poster S3 · #266
 - 🔎 [ViBe: Ultra-High-Resolution Video Synthesis Born from Pure Images](https://arxiv.org/search/?query=ViBe%3A+Ultra-High-Resolution+Video+Synthesis+Born+from+Pure+Images&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Yunfeng Wu et al. · Poster S5 · #27
-- 📄 [Video Generation Models are General-Purpose Vision Learners](https://arxiv.org/abs/2607.09024) — Letian Wang et al. · Poster S3 · #476
+- ⭐ 📄 [Video Generation Models are General-Purpose Vision Learners](https://arxiv.org/abs/2607.09024) — Letian Wang et al. · Poster S3 · #476
 - 📄 [Video Generation Models Are Inherent Lighting Estimators](https://arxiv.org/abs/2607.04674) — Ziqi Cai et al. · Poster S3 · #327
 - 🔎 [Video Generative Models as Geometry Learner](https://arxiv.org/search/?query=Video+Generative+Models+as+Geometry+Learner&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Haosen Yang et al. · Poster S1 · #28
 - 🔎 [VoCa: Unified Autoregressive Modeling for Talking Audio-Video Generation](https://arxiv.org/search/?query=VoCa%3A+Unified+Autoregressive+Modeling+for+Talking+Audio-Video+Generation&searchtype=title&abstracts=show&order=-announced_date_first&size=50) — Zhuofan Zong et al. · Poster S2 · #95
