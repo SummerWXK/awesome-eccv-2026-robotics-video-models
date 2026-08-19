@@ -9,15 +9,15 @@ Please confirm that the title appears on the [official ECCV 2026 accepted-paper 
 1. World-Action Models
 2. World Models
 3. Vision-Language-Action Models
-4. Video Generation & Simulation
+4. Video Generation and Simulation
 
 Use the existing entry format:
 
 ```markdown
-- 📄 [Exact official title](https://arxiv.org/abs/YYMM.NNNNN) — First Author et al. · Poster S# · ##
+* **Exact official title**. [![arXiv](https://img.shields.io/badge/arXiv-YYMM.NNNNN-b31b1b.svg)](https://arxiv.org/abs/YYMM.NNNNN) <br> First Author et al. · ECCV 2026 Poster S# · ##
 ```
 
-Use `📄` only for a direct paper page whose title matches the official title. If no paper page is available, use `🔎` and an exact-title arXiv search link. Do not infer a link from a similar title.
+Use a direct arXiv badge only when the title matches the official title. A clear title variant may be linked only after its full author list has been manually checked against the ECCV entry and the variant is documented under **Scope and Verification**. Otherwise, use an `arXiv-search` badge with an exact-title search link; do not infer a paper from a similar title.
 
 ## Correct metadata
 
